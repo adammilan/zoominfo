@@ -1,0 +1,152 @@
+.mainbox{
+    text-align: center;
+    margin-top: -60px;
+}
+.main{
+  max-width:1126px;
+  max-height:104px;
+  margin:0 auto;
+}
+.upside{
+    width:100%;
+    transform: rotate(180deg) scaleX(-1);
+}
+.option{
+    background: #FAFAFA;
+    border: 2px solid #D9E6EB;
+    border-radius: 23px;
+    width:570px;
+    height:164px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:28px;
+    color:#496472;
+    font-weight: 600;
+    margin:2%;
+    }
+
+.option:hover{ 
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(217,230,235,1);
+}
+
+.active{
+    background: #FAFAFA;
+    border: 4px solid #0D7BAB;
+}
+.disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.answers{
+    justify-content: center;
+}
+
+.btn{   
+    width:100%;
+    max-width:375px;
+    height:69px;
+    color:#FFF0F0F0;
+    background: #F0F0F0;
+    border-radius: 100px
+} 
+    .btn-style{
+    width:100%;
+    outline:none;
+    font-family: OpenSans-Semibold;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    border:none;
+    background:transparent;
+}
+
+.btn-choose{
+    background:#FF8F48 100%;
+}
+
+ol>li{
+    background:#F0F0F0;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mainblock{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+height:100vh;
+}
+.indicators{
+    position: relative;;
+    top:71%;
+}
+.carousel-indicators{
+    position: static;
+}
+
+.logo{
+    position: absolute;
+    left:41%;
+}
+.footer-img{
+    width:100%;
+}
+
+.q1{
+    font-family: OpenSans-Bold;
+    font-size: 32px;
+    color: #0D7BAB;
+    letter-spacing: 0;
+    font-weight: 600;
+}
+.q2{
+    font-family: OpenSans;
+    font-size: 24px;
+    color: #223336;
+    letter-spacing: 0;
+}
+
+.correct{
+    background: #FAFAFA;
+    border: 4px solid #33C933;
+    border-radius: 23px;
+    color:#33C933;
+}
+
+.incorrect{
+    color:#FB4343;
+    background: #FAFAFA;
+    border: 4px solid #FB4343;
+    border-radius: 23px;
+}
+
+.hideStatusImg{
+    display:none;
+}
+.img-pos{
+    position: absolute;
+    left:17%;
+}
+
+.pressed{
+    background:#0D7BAB !important;
+}
+
+
+@media (max-height:800px){
+    .indicators{
+        top:80%;
+    }
+}
+
+@media (max-width: 1460px) {
+.logo{
+    width:26%;
+    left:38%;
+    }
+}
